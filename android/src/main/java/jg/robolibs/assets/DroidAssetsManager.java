@@ -10,10 +10,10 @@ import java.io.InputStream;
 /**
  * Created by jgarcia on 12/4/15.j
  */
-public class AssetsManager implements IAssetsManager {
+public class DroidAssetsManager implements IAssetsManager {
 
     AssetManager assetManager;
-    public AssetsManager(Context ctx){
+    public DroidAssetsManager(Context ctx){
         assetManager = ctx.getAssets();
     }
 
