@@ -1,4 +1,4 @@
-package jg.robolibs.assets;
+package jg.robolibs.assets.ios;
 
 import jg.robolibs.assetsmanager.IAssetsManager;
 import org.robovm.apple.foundation.*;
@@ -12,7 +12,7 @@ import java.io.InputStream;
  * Created by jgarcia on 12/4/15.
  * iOS assets manager implementation.
  */
-public class AssetsManager implements IAssetsManager {
+public class IOSAssetsManager implements IAssetsManager {
     /**
      * Open an asset. This provides access to files that have been bundled with an application as assets -- that is, files placed in to the "application bundle"
      *

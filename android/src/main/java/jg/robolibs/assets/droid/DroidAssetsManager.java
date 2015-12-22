@@ -1,4 +1,4 @@
-package jg.robolibs.assets;
+package jg.robolibs.assets.droid;
 
 import android.content.Context;
 import android.content.res.AssetManager;
